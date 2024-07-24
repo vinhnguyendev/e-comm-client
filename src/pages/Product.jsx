@@ -1,7 +1,11 @@
+import ProductTable from '@/components/product/index'
 import React from 'react'
 
-export default function Product() {
+
+export default function ProductPage() {
   return (
-    <div>Product</div>
+    <div className='flex-1'>
+      <ProductTable />
+    </div>
   )
 }

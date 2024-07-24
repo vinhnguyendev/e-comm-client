@@ -6,7 +6,7 @@ export default function Layout() {
   return (
     <div className="flex min-h-screen">
       <Sidebar />
-      <main className="flex flex-grow">
+      <main className="flex flex-grow p-6 bg-secondary">
         <Outlet />
       </main>
     </div>

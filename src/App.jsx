@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import ProtectedLayout from "./components/layout/ProtectedLayout";
 import Dashboard from "./pages/Dashboard";
-import Product from "./pages/Product";
+import ProductPage from "./pages/Product";
 import Category from "./pages/Category";
 import Customer from "./pages/Customer";
 import Order from "./pages/Order";
@@ -22,7 +22,7 @@ function App() {
           <Route path="/" element={<ProtectedLayout />}>
             <Route index element={<Navigate to="/dashboard" replace />} />
             <Route path="dashboard" element={<Dashboard />} />
-            <Route path="product" element={<Product />} />
+            <Route path="product" element={<ProductPage />} />
             <Route path="category" element={<Category />} />
             <Route path="customer" element={<Customer />} />
             <Route path="order" element={<Order />} />

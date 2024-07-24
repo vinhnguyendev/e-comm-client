@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "product_name": "Red T-Shirt",
+        "status": "active",
+        "inventory": 120,
+        "category": "T-Shirts",
+        "price": 20
+    },
+    {
+        "id": 2,
+        "product_name": "Blue Jeans",
+        "status": "active",
+        "inventory": 80,
+        "category": "Jeans",
+        "price": 50
+    },
+    {
+        "id": 3,
+        "product_name": "Black Hoodie",
+        "status": "draft",
+        "inventory": 60,
+        "category": "Hoodies",
+        "price": 40
+    },
+    {
+        "id": 4,
+        "product_name": "Green Cap",
+        "status": "active",
+        "inventory": 150,
+        "category": "Accessories",
+        "price": 15
+    },
+    {
+        "id": 5,
+        "product_name": "White Sneakers",
+        "status": "active",
+        "inventory": 50,
+        "category": "Footwear",
+        "price": 60
+    },
+    {
+        "id": 6,
+        "product_name": "Grey Sweatpants",
+        "status": "draft",
+        "inventory": 70,
+        "category": "Pants",
+        "price": 30
+    },
+    {
+        "id": 7,
+        "product_name": "Yellow Dress",
+        "status": "active",
+        "inventory": 40,
+        "category": "Dresses",
+        "price": 46
+    },
+    {
+        "id": 8,
+        "product_name": "Purple Scarf",
+        "status": "active",
+        "inventory": 110,
+        "category": "Accessories",
+        "price": 13
+    },
+    {
+        "id": 9,
+        "product_name": "Black Leather Jacket",
+        "status": "draft",
+        "inventory": 30,
+        "category": "Jackets",
+        "price": 100
+    },
+    {
+        "id": 10,
+        "product_name": "Blue Socks",
+        "status": "active",
+        "inventory": 200,
+        "category": "Accessories",
+        "price": 8
+    },
+    {
+        "id": 11,
+        "product_name": "Pink Blouse",
+        "status": "active",
+        "inventory": 85,
+        "category": "Tops",
+        "price": 25
+    },
+    {
+        "id": 12,
+        "product_name": "Orange Shorts",
+        "status": "draft",
+        "inventory": 95,
+        "category": "Shorts",
+        "price": 23
+    },
+    {
+        "id": 13,
+        "product_name": "Brown Boots",
+        "status": "active",
+        "inventory": 45,
+        "category": "Footwear",
+        "price": 80
+    },
+    {
+        "id": 14,
+        "product_name": "White Tank Top",
+        "status": "active",
+        "inventory": 100,
+        "category": "Tops",
+        "price": 15
+    },
+    {
+        "id": 15,
+        "product_name": "Grey Cardigan",
+        "status": "draft",
+        "inventory": 55,
+        "category": "Sweaters",
+        "price": 35
+    },
+    {
+        "id": 16,
+        "product_name": "Red Skirt",
+        "status": "active",
+        "inventory": 75,
+        "category": "Skirts",
+        "price": 30
+    },
+    {
+        "id": 17,
+        "product_name": "Blue Pajamas",
+        "status": "active",
+        "inventory": 60,
+        "category": "Sleepwear",
+        "price": 26
+    },
+    {
+        "id": 18,
+        "product_name": "Black Belt",
+        "status": "draft",
+        "inventory": 140,
+        "category": "Accessories",
+        "price": 12
+    },
+    {
+        "id": 19,
+        "product_name": "Green Polo Shirt",
+        "status": "active",
+        "inventory": 90,
+        "category": "Shirts",
+        "price": 28
+    },
+    {
+        "id": 20,
+        "product_name": "White Leggings",
+        "status": "active",
+        "inventory": 130,
+        "category": "Pants",
+        "price": 19
+    },
+    {
+        "id": 21,
+        "product_name": "Brown Hat",
+        "status": "draft",
+        "inventory": 75,
+        "category": "Accessories",
+        "price": 16
+    },
+    {
+        "id": 22,
+        "product_name": "Black Sports Bra",
+        "status": "active",
+        "inventory": 85,
+        "category": "Sportswear",
+        "price": 20
+    },
+    {
+        "id": 23,
+        "product_name": "Grey Suit",
+        "status": "draft",
+        "inventory": 25,
+        "category": "Formalwear",
+        "price": 200
+    },
+    {
+        "id": 24,
+        "product_name": "Red Swimsuit",
+        "status": "active",
+        "inventory": 60,
+        "category": "Swimwear",
+        "price": 36
+    },
+    {
+        "id": 25,
+        "product_name": "Purple Gloves",
+        "status": "active",
+        "inventory": 90,
+        "category": "Accessories",
+        "price": 10
+    },
+    {
+        "id": 26,
+        "product_name": "Black Tuxedo",
+        "status": "draft",
+        "inventory": 10,
+        "category": "Formalwear",
+        "price": 300
+    },
+    {
+        "id": 27,
+        "product_name": "White Shirt",
+        "status": "active",
+        "inventory": 100,
+        "category": "Shirts",
+        "price": 23
+    },
+    {
+        "id": 28,
+        "product_name": "Blue Denim Jacket",
+        "status": "active",
+        "inventory": 0,
+        "category": "Jackets",
+        "price": 50
+    },
+    {
+        "id": 29,
+        "product_name": "Green Cargo Pants",
+        "status": "draft",
+        "inventory": 60,
+        "category": "Pants",
+        "price": 33
+    },
+    {
+        "id": 30,
+        "product_name": "Yellow Raincoat",
+        "status": "active",
+        "inventory": 45,
+        "category": "Jackets",
+        "price": 55
+    }
+]

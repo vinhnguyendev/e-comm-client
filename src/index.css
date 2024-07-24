@@ -16,11 +16,11 @@
     --primary: 222.2 47.4% 11.2%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 240 6.7% 90.6% / 50%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted-foreground: 240 4.8% 46.5%;
 
     --accent: 210 40% 96.1%;
     --accent-foreground: 222.2 47.4% 11.2%;
@@ -72,5 +72,31 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* table */
+  .table-container {
+    @apply relative w-full overflow-auto border border-slate-300 rounded-xl bg-white ;
+  }
+  .table {
+    @apply w-full caption-bottom text-sm ;
+  }
+  .table-header {
+    @apply [&_tr]:border-b bg-secondary;
+  }
+  .table-body {
+    @apply [&_tr:last-child]:border-0;
+  }
+  .table-footer {
+    @apply border-t bg-muted/50 font-medium [&>tr]:last:border-b-0;
+  }
+  .table-row {
+    @apply border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted;
+  }
+  .table-head {
+    @apply h-12 px-4 text-left align-middle font-medium text-muted-foreground [&:has([role=checkbox])]:pr-0
+  }
+  .table-cell {
+    @apply p-4 align-middle [&:has([role=checkbox])]:pr-0
   }
 }
